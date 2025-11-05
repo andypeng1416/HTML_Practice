@@ -1,0 +1,102 @@
+section {
+    margin: 100px;
+}
+
+a {
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:focus {
+    background-color: rgb(255, 107, 2);
+}
+
+a:hover {
+    background-color: rgb(164, 4, 4);
+}
+
+a:active {
+    color: rgb(4, 85, 150);
+}
+
+div:first-child {
+    border: 2px solid black;
+}
+
+/*p:first-child{
+    background-color: #faa;
+}
+*/
+p:first-of-type {
+    background-color: #faa;
+}
+
+/*---------------------------------*/
+
+a[herf] {
+    color: orange;
+}
+
+a[herf^="https"] {
+    color: green;
+}
+
+.linka {
+    color: red;
+}
+
+/* 群組 */
+/*
+.box1, .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+*/
+/*---------------------------------*/
+
+.item+.item {
+    border-top: 1px solid #faa;
+}
+
+.first-item div {
+    color: rgb(88, 255, 107);
+}
+
+.first-item-border>div {
+    border: 2px solid blueviolet;
+}
+
+/*---------------------------------*/
+/* 組合式宣告 */
+
+div#box-id-1 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+/*---------------------------------*/
+/* 層疊式宣告 */
+
+.new-list li a {
+    border: 1px solid red;
+}
+
+.new-list .new-list-item {
+    border: 1px solid red;
+}
+
+/*----------------------------------*/
+.news .card {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+
+/*---------------------------------*/
